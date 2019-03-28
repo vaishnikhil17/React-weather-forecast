@@ -45,9 +45,7 @@ export default class App extends Component {
       ) : (
         <div>
           <WeatherForecast data={forecast} />
-          <div className="fork">
-            <a href="https://github.com/Gigacore/react-weather-forecast" target="_blank">Fork it on Github</a>
-          </div> 
+
         </div>
       )
     );
